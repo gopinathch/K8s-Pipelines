@@ -3,7 +3,7 @@ This repository demonstrates how to use Azure Pipelines to deploy containerized 
 
 We will start with how to confgure CI/CD pipeline using Azure Pipelines to Azure Kubernetes Service (AKS) and expand to any Kubernetes cluster.
 
-You can learn more about Azure Pipelines documentation.
+You can learn more about [Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/aks-template?view=azure-devops).
 
 ## Prerequistes
 
