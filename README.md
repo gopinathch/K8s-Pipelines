@@ -13,7 +13,7 @@ Below are the key pre-requisites:
 * Azure Subscription with an existing Azure Kubernetes Cluster
 * Azure Container Registry
 
-If you do not have AKS cluster or ACR registry - you can create them using az cli.
+If you do not have AKS cluster or ACR registry - you can create them using [az cli](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest).
 
 ```
 # Create a resource group
