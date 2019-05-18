@@ -3,7 +3,7 @@ This repository demonstrates how to use Azure Pipelines to deploy containerized 
 
 We will start with how to confgure CI/CD pipeline using Azure Pipelines to Azure Kubernetes Service (AKS) and expand to any Kubernetes cluster.
 
-You can learn more about [Azure Pipelines documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/aks-template?view=azure-devops).
+You can learn more about [Azure Pipelines here](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/aks-template?view=azure-devops).
 
 ## Prerequistes
 
@@ -43,7 +43,8 @@ To get started easily you can fork this repo to try out and learn. You need to i
 3) Once you select AKS template, Azure Piplines will take cluster name, container registry and namespace as inputs to configure the Pipeline. These are the only inputs you need to provide for configuring the pipeline - remaining all image name and port will be autofilled in.
 4) Azure Pipeline will now configure pipeline and auto create yml files required for the pipeline including Kubernetes manifest yml files for deploying to the cluster. All the files are committed to the code repo – so you get full configuration as code. You just need to click Save and Run.
 
-That’s it, as you can see, you just need 4 steps to configure a pipeline for AKS cluster, once you click save and run – it will commit all the code and trigger the pipeline.
+That’s it, as you can see, you just need 4 steps to configure a pipeline for AKS cluster, once you click save and run – it will commit all the code, configure the CI/CD pipeline targeting Kubernetes cluster. 
 
+Now any code change to your code repo will automatically deployed. 
 
-
+If you have any questions, feedback or issues, reach out to [me on twitter](http://twitter.com/gopinach)
